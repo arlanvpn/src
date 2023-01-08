@@ -155,7 +155,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ STATUS LAYANAN ⇲                       \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e " ${BLUE}WEBSOCKET${NC} : $ON   "
+echo -e " ${BLUE}WEBSOCKET${NC} : ${GREEN}ON"
 echo -e " ${BLUE}XRAY${NC}      : ${status_xray} "
 echo -e " ${BLUE}NGINX${NC}     : ${status_nginx} "
 echo -e ""
