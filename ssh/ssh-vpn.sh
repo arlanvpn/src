@@ -252,10 +252,31 @@ chmod +x /etc/issue.net
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 cat> /etc/issue.net << END
-<font color="red"><b>============================</b></font><br> 
-<font color="white"><b>        ARLAN STORE         </b></font><br> 
-<font color="red"><b>============================</b></font>
-END
+
+
+<p style="text-align:center"><b>
+                                                                                                    
+<br><font color='red'><b>क═══════क⊹⊱✫⊰⊹क══════क</b></font>
+                                                                                                    
+<br><font color=#30D5C8><b>ARLAN STORE</b></font>
+                                                                                                    
+<br><font color='green'><b>क═══════क⊹⊱✫⊰⊹क══════क</b><br></font>
+                                                                                                    
+<br><font color='#DC143C'>&ensp;•NO DDOS!!!</font>
+                                                                                                    
+<br><font color='#fc7303'>&ensp;•NO HACKING !!!</font>
+                                                                                                    
+<br><font color='#a9fc03'>&ensp;•NO CARDING !!!</font>
+                                                                                                    
+<br><font color='#52fc03'>&ensp;•NO TORRENT !!!</font>
+                                                                                                    
+<br><font color='#9d03fc'>&ensp;•NO SPAMMING !!!</font>
+                                                                                                    
+<br><font color='#0367fc'>&ensp;•NO PLAYING PLAYSTATION !!!</font>
+                                                                                                   
+<br><font color='blue'><b>क═══════क⊹⊱✫⊰⊹क══════क</b></font>
+                                                                                                    
+<br><font color='gren'>&ensp;Don't forget to support us !!!<br></font>END
 
 #install bbr dan optimasi kernel
 wget https://raw.githubusercontent.com/arlanvpn/src/ipuk/ssh/bbr.sh && chmod +x bbr.sh && ./bbr.sh
