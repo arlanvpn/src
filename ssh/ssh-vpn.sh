@@ -276,7 +276,8 @@ cat> /etc/issue.net << END
                                                                                                    
 <br><font color='blue'><b>क═══════क⊹⊱✫⊰⊹क══════क</b></font>
                                                                                                     
-<br><font color='gren'>&ensp;Don't forget to support us !!!<br></font>END
+<br><font color='gren'>&ensp;Don't forget to support us !!!<br></font>
+END
 
 #install bbr dan optimasi kernel
 wget https://raw.githubusercontent.com/arlanvpn/src/ipuk/ssh/bbr.sh && chmod +x bbr.sh && ./bbr.sh
